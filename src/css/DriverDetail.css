@@ -1,0 +1,26 @@
+#driver-info {
+    padding: 15px 18px;
+}
+
+.driver-name {
+    text-align: center;
+    padding: 10px 8px;
+    font-size: 30px;
+}
+
+.racer-data {
+    font-size: 17px;
+    padding: 5px 10px;
+}
+
+table {
+    margin: auto;
+}
+
+table thead {
+    padding: 0px 8px;
+}
+
+table .data {
+    padding: 0px 8px;
+}

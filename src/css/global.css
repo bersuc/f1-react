@@ -1,0 +1,19 @@
+@font-face {
+    font-family: formulaone;
+    src: url(../css/Formula1-Regular.ttf);
+}
+
+* {
+    font-family: formulaone;
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased !important;
+    font-size: 0.9rem;
+    letter-spacing: 0.05px;
+    color: #fff;
+    background-color: #333;
+  }
+
+  

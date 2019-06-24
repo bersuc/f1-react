@@ -1,0 +1,16 @@
+table {
+    display: inline-block;
+    align-content: space-around;
+    vertical-align: center;
+    margin: 10px;
+ }
+
+thead {
+    background-color: #666;
+  }
+  
+table .race {
+    width: auto;
+    text-align: center;
+    grid-template-columns: 10px 180px 25px;
+}

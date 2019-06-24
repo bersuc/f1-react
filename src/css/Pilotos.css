@@ -1,0 +1,21 @@
+table {
+  display: grid;
+  border-color: #eee;
+}
+
+#lista-pilotos {
+    margin: 15px;
+}
+table .car-number {
+  text-align: center;
+}
+table .driver {
+    text-align: left;
+    padding: 3px 8px;
+    vertical-align: middle;
+  }
+
+table thead {
+    background-color: #666;
+  }
+  

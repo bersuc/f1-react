@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: formulaone;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: formulaone;
+  src: url(./css/Formula1-Regular.ttf);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
