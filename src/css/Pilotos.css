@@ -1,11 +1,21 @@
-table {
-  display: grid;
-  border-color: #eee;
-}
 
 #lista-pilotos {
     margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+table {
+  display: grid;
+  min-width: 400px;
+  padding-top: 30px;
 }
+
+div#lista-pilotos > h1 {
+  align-self: auto;
+}
+
 table .car-number {
   text-align: center;
 }

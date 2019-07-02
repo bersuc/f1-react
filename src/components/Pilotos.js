@@ -27,8 +27,8 @@ function Pilotos() {
 
   return (
     <div id="lista-pilotos">
-      <h1>Pilotos</h1>
-      <table className="pilotos">
+      <h1>Drivers</h1>
+      <table className="pilotos" align="center">
         <thead className="head-drivers">
           <tr>
             <td>Car #</td>

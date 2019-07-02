@@ -10,7 +10,7 @@ function DriverDetail({ match }) {
         infoPiloto();
     },[]);
 
-  const [info, setDriver] = useState({});  
+  const [info, setInfo] = useState({});  
 
   const infoPiloto = async () => {
     const dadoPiloto = await fetch(`http://ergast.com/api/f1/2019/drivers/${match.params.id}.json`, {
@@ -18,7 +18,7 @@ function DriverDetail({ match }) {
     });
     const dados2 = await dadoPiloto.json();
     const info = dados2.MRData.DriverTable.Drivers[0];
-    setDriver(info);
+    setInfo(info);
   }
 
   return (
