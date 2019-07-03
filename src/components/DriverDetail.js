@@ -54,7 +54,7 @@ function DriverDetail({ match }) {
                 <td className="data">{Moment(info.dateOfBirth).format('Do  MMM YYYY')}</td>
             </tr>
             <tr>
-                <td>Born </td>
+                <td>Born: </td>
                 <td className="data">{Moment(info.dateOfBirth).fromNow()}</td>
             </tr>
             <tr>
