@@ -1,20 +1,26 @@
 
-#lista-pilotos {
-    margin: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+div#lista-pilotos {
+  width: 500px;
+  margin: 15px;
+  display: block;
   }
 
+.lala {
+  background-color: blue;
+}
+
+.title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 table {
-  display: grid;
-  min-width: 400px;
+  border: 3px;
+  width: 100%;
   padding-top: 30px;
 }
 
-div#lista-pilotos > h1 {
-  align-self: auto;
-}
 
 table .car-number {
   text-align: center;
@@ -28,4 +34,3 @@ table .driver {
 table thead {
     background-color: #666;
   }
-  

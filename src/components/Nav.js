@@ -12,8 +12,12 @@ function Nav() {
   };
   return (
     <nav className="menu">
-        <img id="logo" src={logoF1} alt="Logo F1"/>
-        <h3>Formula One</h3>
+        <Link style={navStyle} to="/">
+          <img id="logo" src={logoF1} alt="Logo F1"/>
+        </Link>
+        <Link style={navStyle} to="/">
+          <h3>Formula One</h3>
+        </Link>
         <ul className="nav-links">
             <Link style={navStyle} to="/tabela">
             <li>Overall Standings</li>
