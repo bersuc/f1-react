@@ -1,0 +1,18 @@
+
+.notfound {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url('https://usatftw.files.wordpress.com/2015/04/f1.gif');    
+    background-size:100% 100%;
+    width: 100vw;
+    height: 92vh;
+    opacity: 0.5;
+}
+
+
+.notfound p {
+    font-size: 20px;
+    opacity: 1;
+}
