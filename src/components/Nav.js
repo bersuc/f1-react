@@ -20,7 +20,7 @@ function Nav() {
         </Link>
         <ul className="nav-links">
             <Link style={navStyle} to="/tabela">
-            <li>Overall Standings</li>
+            <li>Season 2019</li>
             </Link>
             <Link  style={navStyle} to="/pilotos">
             <li>F1 Drivers</li>
