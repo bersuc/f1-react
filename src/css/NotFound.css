@@ -12,7 +12,11 @@
 }
 
 
-.notfound p {
-    font-size: 20px;
-    opacity: 1;
+p {
+    position: absolute;
+    font-size: 5vh;
+    font: bold;
+    z-index: 10;    
+    right: 40%;
+    top: 40%;
 }
