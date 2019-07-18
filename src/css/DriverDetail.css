@@ -13,6 +13,34 @@
     padding: 5px 10px;
 }
 
+.driver-details-table {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    list-style: none;
+    
+}
+
+.driver-details-table .header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-bottom: solid 1px lightgray;
+}
+
+.driver-details-table .cat {
+    padding: 10px;
+    border-bottom: solid 1px lightgray;
+    background-color: darkgrey;
+    color: black;
+}
+
+.driver-details-table .data {
+    padding: 10px;
+    border-bottom: solid 1px lightgray;
+    background-color:;
+    color: white;
+}
+
 table {
     margin: auto;
 }
