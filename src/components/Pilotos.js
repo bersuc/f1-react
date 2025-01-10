@@ -12,13 +12,13 @@ function Pilotos() {
   useEffect(
     () => {
       pegaPiloto();
-    },[]);
+    }, []);
 
-  const [info, setDrivers] = useState([]);  
+  const [info, setDrivers] = useState([]);
 
   const pegaPiloto = async () => {
-    const dadoPiloto = await fetch('http://ergast.com/api/f1/2019/drivers.json', {
-      crossDomain:true,
+    const dadoPiloto = await fetch('http://ergast.com/api/f1/2024/drivers.json', {
+      crossDomain: true,
     });
     const dados2 = await dadoPiloto.json();
     const info = dados2.MRData.DriverTable.Drivers;
@@ -37,16 +37,16 @@ function Pilotos() {
           </tr>
         </thead>
         <tbody>
-          {info.map(quem=>(
+          {info.map(quem => (
             <tr key={quem.permanentNumber}>
               <td className="car-number">{quem.permanentNumber}</td>
-              
+
               <td className="driver">
-              <Link style={pilotoStyle} to={`/pilotos/${quem.driverId}`}>
-                {quem.givenName} <strong> {quem.familyName}</strong>
-              </Link>
+                <Link style={pilotoStyle} to={`/pilotos/${quem.driverId}`}>
+                  {quem.givenName} <strong> {quem.familyName}</strong>
+                </Link>
               </td>
-              
+
               <td className="country">{quem.nationality}</td>
             </tr>
           ))}

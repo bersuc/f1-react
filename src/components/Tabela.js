@@ -1,4 +1,4 @@
-import React, { useState, useEffect }  from 'react';
+import React, { useState, useEffect } from 'react';
 import '../css/flag-icon.css';
 import '../css/Tabela.css';
 import Moment from 'moment';
@@ -11,13 +11,13 @@ function Tabela() {
   useEffect(
     () => {
       pegaPiloto();
-    },[]);
+    }, []);
 
-  const [info, setDrivers] = useState([]);  
+  const [info, setDrivers] = useState([]);
 
   const pegaPiloto = async () => {
-    const dadoPiloto = await fetch('http://ergast.com/api/f1/2019.json', {
-      crossDomain:true,
+    const dadoPiloto = await fetch('http://ergast.com/api/f1/2024.json', {
+      crossDomain: true,
     });
     const dados2 = await dadoPiloto.json();
     const info = dados2.MRData.RaceTable.Races;
@@ -50,5 +50,5 @@ function Tabela() {
       </tbody>
     </table>
   );
-          }
+}
 export default Tabela;
